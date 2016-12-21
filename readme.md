@@ -1,6 +1,12 @@
-# alfred-tidy
+# <div align="center"><img src="./icon.png" width=256><br>alfred-tidy</div>
 
 > [Alfred 3](https://www.alfredapp.com) workflow to beautify JSON/XML in clipboard
+
+
+## Prerequisites
+
+You need [Node.js 4+](https://nodejs.org) and [Alfred 3](https://www.alfredapp.com) with the paid [Powerpack](https://www.alfredapp.com/powerpack/) upgrade.
+
 
 ## Usage
 
@@ -31,9 +37,9 @@ You can send code snippet in clipboard to anonymous gist and see the gist page i
 
 ## Install
 
-[Install the workflow.](http://www.packal.org/workflow/tidy)
-
-*Requires [Node.js](https://nodejs.org) 4+ and the Alfred [Powerpack](https://www.alfredapp.com/powerpack/).*
+```
+$ npm i -g alfred-tidy
+```
 
 
 ## Reference
