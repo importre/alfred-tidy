@@ -1,6 +1,38 @@
 {
+  "name": "alfred-tidy",
+  "version": "0.1.0",
+  "description": "Alfred 3 workflow to beautify JSON/XML in clipboard",
+  "license": "MIT",
+  "repository": "importre/alfred-tidy",
+  "author": {
+    "name": "Jaewe Heo",
+    "email": "jaeweheo@gmail.com",
+    "url": "importre.com"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "scripts": {
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "src",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "tidy",
+    "pretty",
+    "beautify",
+    "xml",
+    "json"
+  ],
   "dependencies": {
-    "alfy": "^0.2.1",
-    "got": "^6.3.0"
+    "alfred-notifier": "^0.2.0",
+    "alfy": "^0.6.0",
+    "got": "^6.6.3"
   }
 }
+
