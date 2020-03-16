@@ -6,21 +6,6 @@
 	<string>com.importre.alfred.tidy</string>
 	<key>connections</key>
 	<dict>
-		<key>0FAC2E15-3643-4C62-A70B-1596611024FA</key>
-		<array/>
-		<key>3B95F73B-1222-47FB-BACD-64970A7089FF</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>0FAC2E15-3643-4C62-A70B-1596611024FA</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>5FC62AFD-AC23-459C-9E01-CD39BF1BB0C6</key>
 		<array>
 			<dict>
@@ -30,16 +15,6 @@
 				<integer>0</integer>
 				<key>modifiersubtext</key>
 				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-			<dict>
-				<key>destinationuid</key>
-				<string>3B95F73B-1222-47FB-BACD-64970A7089FF</string>
-				<key>modifiers</key>
-				<integer>1048576</integer>
-				<key>modifiersubtext</key>
-				<string>Send clipboard data to Gist</string>
 				<key>vitoclose</key>
 				<false/>
 			</dict>
@@ -85,6 +60,12 @@
 			<dict>
 				<key>alfredfiltersresults</key>
 				<false/>
+				<key>alfredfiltersresultsmatchmode</key>
+				<integer>0</integer>
+				<key>argumenttreatemptyqueryasnil</key>
+				<false/>
+				<key>argumenttrimmode</key>
+				<integer>0</integer>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>escaping</key>
@@ -121,73 +102,13 @@
 			<key>uid</key>
 			<string>5FC62AFD-AC23-459C-9E01-CD39BF1BB0C6</string>
 			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node ./src/gist.js "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>0FAC2E15-3643-4C62-A70B-1596611024FA</string>
-			<key>version</key>
-			<integer>2</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>concurrently</key>
-				<false/>
-				<key>escaping</key>
-				<integer>102</integer>
-				<key>script</key>
-				<string>./node_modules/.bin/run-node ./src/tidy.js "$1"</string>
-				<key>scriptargtype</key>
-				<integer>1</integer>
-				<key>scriptfile</key>
-				<string></string>
-				<key>type</key>
-				<integer>0</integer>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.action.script</string>
-			<key>uid</key>
-			<string>3B95F73B-1222-47FB-BACD-64970A7089FF</string>
-			<key>version</key>
-			<integer>2</integer>
+			<integer>3</integer>
 		</dict>
 	</array>
 	<key>readme</key>
 	<string>See https://github.com/importre/alfred-tidy</string>
 	<key>uidata</key>
 	<dict>
-		<key>0FAC2E15-3643-4C62-A70B-1596611024FA</key>
-		<dict>
-			<key>xpos</key>
-			<integer>350</integer>
-			<key>ypos</key>
-			<integer>140</integer>
-		</dict>
-		<key>3B95F73B-1222-47FB-BACD-64970A7089FF</key>
-		<dict>
-			<key>xpos</key>
-			<integer>180</integer>
-			<key>ypos</key>
-			<integer>140</integer>
-		</dict>
 		<key>5FC62AFD-AC23-459C-9E01-CD39BF1BB0C6</key>
 		<dict>
 			<key>xpos</key>
