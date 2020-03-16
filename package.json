@@ -30,8 +30,8 @@
     "json"
   ],
   "dependencies": {
-    "alfred-notifier": "^0.2.0",
+    "alfred-notifier": "^0.2.3",
     "alfy": "^0.6.0",
-    "got": "^6.6.3"
+    "got": "^6.7.1"
   }
 }
